@@ -6,6 +6,7 @@ config :show_hide_app, ShowHideApp.Repo,
   password: "postgres",
   hostname: "localhost",
   database: "show_hide_app_dev",
+  port: 15432,
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
